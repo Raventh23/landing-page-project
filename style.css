@@ -33,6 +33,10 @@ button{
     gap: 15px;
     padding: 20px;
     justify-content: space-around;
+    padding-bottom: 100px;
+}
+img{
+    border: 1px solid white;
 }
 .leftSide{
     display: flex;
