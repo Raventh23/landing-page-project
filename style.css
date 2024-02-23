@@ -86,7 +86,21 @@ img{
 }
 .quotes{
     display:flex;
+    flex:1;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    background-color: lightgray;
+    flex-wrap: wrap;
+}
+.quotes p{
+    width: 500px;
+    font-size: 30px;
+    font-style: italic;
+}
+.quotes h6{
+    margin-top: -150px;
 }
 .calltoaction{
     display:flex;
