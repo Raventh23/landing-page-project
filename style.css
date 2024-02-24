@@ -54,10 +54,10 @@ img{
     background-color: #3882f6;
     color: white;
     font-weight: 300;
-    border-radius: 12px;
-    padding: 5px;
-    padding-left: 6px;
-    padding-right: 6px;
+    border-radius: 7px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 .informationsection{
@@ -100,8 +100,42 @@ img{
     font-style: italic;
 }
 .quotes h6{
-    margin-top: -150px;
+   margin-top: -30px;
+   padding-left: 400px;
+   font-weight: 600;
+   font-size: 15pt;
 }
 .calltoaction{
     display:flex;
+    justify-content: center;
+}
+.innerSection{
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px;
+    padding-left: 20px;
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 150px;
+    border-radius: 10px;
+}
+.innerSection h4{
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-size: 25px;
+}
+.innerSection button{
+    margin: 50px;
+    padding: 10px;
+    background-color: #3882f6;
+    border-color: white;
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    justify-content: center;
+    align-content: center;
 }
